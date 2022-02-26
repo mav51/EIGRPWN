@@ -15,9 +15,9 @@ EIGRPMulticast = "224.0.0.10"
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--interface", type=str, dest="interface", required=True)
-    parser.add_argument("--asn", type=int, dest="asn", required=True)
-    parser.add_argument("--subnet", type=str, dest="subnet", required=True)
+    parser.add_argument("--interface", type=str, dest="interface", required=True, help=help="Choose the interface to attack")
+    parser.add_argument("--asn", type=int, dest="asn", required=True, help="EIGRP Autonomous System Number")
+    parser.add_argument("--subnet", type=str, dest="subnet", required=True, help="Specifying the subnet. Example: 10.10.10.0/24")
     
     args = parser.parse_args()
 
