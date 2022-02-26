@@ -14,11 +14,11 @@ EIGRPMulticast = "224.0.0.10"
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--interface", type=str, dest="interface", required=True)
-    parser.add_argument("--asn", type=int, dest="asn", required=True)
-    parser.add_argument("--src", type=str, dest="source_ip", required=True)
-    parser.add_argument("--dst", type=str, dest="destination_ip", required=True)
-    parser.add_argument("--prefix", type=int, dest="prefix", required=True)
+    parser.add_argument("--interface", type=str, dest="interface", required=True, help="Choose the interface to attack")
+    parser.add_argument("--asn", type=int, dest="asn", required=True, help="EIGRP Autonomous System Number")
+    parser.add_argument("--src", type=str, dest="source_ip", required=True, help="Attacker IP")
+    parser.add_argument("--dst", type=str, dest="destination_ip", required=True, help="Target IP address for injection")
+    parser.add_argument("--prefix", type=int, dest="prefix", required=True, help="Specifying the subnet mask")
     
     args = parser.parse_args()
 
