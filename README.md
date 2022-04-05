@@ -7,4 +7,4 @@
 
 **EIGRPinternalinject.py** - a tool for injecting internal EIGRP routes
 
-**EIGRPtableoverflow** - a tool for attacking the EIGRP routing table. Causes an overflow of the . DoS routing table.
+**EIGRPtableoverflow.py** - a tool for attacking the EIGRP routing table. Causes an overflow of the . DoS routing table.
