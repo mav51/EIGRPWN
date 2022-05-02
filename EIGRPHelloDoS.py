@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-#by C0ldheim
 
 
 from scapy.all import *
