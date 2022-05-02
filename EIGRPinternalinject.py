@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-#by C0ldheim
-
 
 from scapy.all import *
 from scapy.contrib.eigrp import *
