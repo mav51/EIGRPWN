@@ -15,7 +15,7 @@ print (r"""
 ╚══════╝╚═╝░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░░░░╚═╝░░░╚═╝░░╚═╝░░╚══╝
     """)
 
-print ("EIGRP External routes injection tool")
+print ("EIGRP route injection tool")
 print("\nAuthor: @necreas1ng, <necreas1ng@protonmail.com>\n")
 
 
