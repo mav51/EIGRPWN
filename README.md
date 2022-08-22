@@ -20,7 +20,7 @@ python3 routeinject.py --help
     
 EIGRP route injection tool
 
-Author: @necreas1ng, <necreas1ng@protonmail.com>
+Author: Magama Bazarov, <in9uz@protonmail.com>
 
 usage: routeinject.py [-h] --interface INTERFACE --asn ASN --src SOURCE_IP --dst DESTINATION_IP --prefix PREFIX
 
@@ -47,7 +47,7 @@ options:
     
 EIGRP Hello flooding tool (Denial of Service)
 
-Author: @necreas1ng, <necreas1ng@protonmail.com>
+Author: Magama Bazarov, <in9uz@protonmail.com>
 
 usage: helloflooding.py [-h] --interface INTERFACE --asn ASN --subnet SUBNET
 
@@ -73,7 +73,7 @@ options:
     
 Tool for overflow of routing tables in EIGRP routers
 
-Author: @necreas1ng, <necreas1ng@protonmail.com>
+Author: Magama Bazarov, <in9uz@protonmail.com>
 
 usage: routingtableoverflow.py [-h] --interface INTERFACE --asn ASN --src SOURCE_IP
 
