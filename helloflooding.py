@@ -16,7 +16,7 @@ print (r"""
     """)
 
 print ("EIGRP Hello flooding tool (Denial of Service)")
-print("\nAuthor: @necreas1ng, <necreas1ng@protonmail.com>\n")
+print("\nAuthor: Magama Bazarov, <in9uz@protonmail.com>\n")
 
 
 
