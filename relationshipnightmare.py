@@ -16,7 +16,7 @@ print (r"""
     """)
 
 print ("EIGRP Relationships terminating tool (Denial of Service)")
-print("\nAuthor: Magama Bazarov, <in9uz@protonmail.com>\n")
+print("\nCaster, @c4s73r, <c4s73r@protonmail.com>\n")
 
 
 
