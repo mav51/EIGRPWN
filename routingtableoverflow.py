@@ -15,7 +15,7 @@ print (r"""
     """)
 
 print ("Tool for overflow of routing tables in EIGRP routers")
-print("\nAuthor: Magama Bazarov, <in9uz@protonmail.com>\n")
+print("\nAuthor: Caster, @c4s73r, <c4s73r@protonmail.com>\n")
 
 L2Multicast = "01:00:5E:00:00:0A"
 EIGRPMulticast = "224.0.0.10"
