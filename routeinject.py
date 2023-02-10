@@ -16,7 +16,7 @@ print (r"""
     """)
 
 print ("EIGRP route injection tool")
-print("\nAuthor: Magama Bazarov, <in9uz@protonmail.com>\n")
+print("\nCaster, @c4s73r, <c4s73r@protonmail.com>\n")
 
 
 
